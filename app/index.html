@@ -311,5 +311,12 @@
   <script src="assets/js/vendor/bootstrap.min.js"></script>
   <script src="assets/js/vendor/highlight.pack.js"></script>
   <script src="assets/js/scripts.js"></script>
+  <script>
+    async function asd() {
+      throw new Error('error!');
+    }
+
+    asd().catch(console.error);
+  </script>
 </body>
 </html>
